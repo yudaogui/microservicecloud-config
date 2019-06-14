@@ -1,0 +1,15 @@
+server:
+  port: 12901
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-client
+
+---
+
+server:
+  port: 12901
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-client
